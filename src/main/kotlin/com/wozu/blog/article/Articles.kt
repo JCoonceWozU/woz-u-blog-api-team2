@@ -7,7 +7,7 @@ import javax.persistence.*
 data class Articles (
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        var id: Long = 0,
+        var id: Long,
         var title: String = "",
         var username: String = "",
         var description: String = "",

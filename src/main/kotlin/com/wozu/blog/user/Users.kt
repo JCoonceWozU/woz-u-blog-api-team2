@@ -7,7 +7,7 @@ import javax.persistence.*
 data class Users(
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        var id: Long = 0,
+        var id: Long,
         var firstname: String = "",
         var lastname: String = "",
         var username: String = "",

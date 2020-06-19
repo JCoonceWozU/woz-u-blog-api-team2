@@ -7,7 +7,7 @@ import javax.persistence.*
 data class Comments(
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
-        var id: Long = 0,
+        var id: Long,
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         var articlesid: Long = 0,
         var commenter: String = "",
